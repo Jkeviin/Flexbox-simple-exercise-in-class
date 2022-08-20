@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeff00;
+}
+
+.text{
+    padding: 25px;
+}
+
+.header{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 15%;
+    background-color: green;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+    width: 30%;
+    min-height: 30em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #ECF0F1, 5px 5px 10px #ECF0F1;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 29px;
+    width: 100%;
+    height: 85% ;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-config{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.config{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 28%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
