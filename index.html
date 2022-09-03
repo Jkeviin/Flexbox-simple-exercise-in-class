@@ -11,14 +11,18 @@
 <main>
     <div class="card-config">
         <div class="config">
-            <input type="color" id="input-color" name="" id="">
-            <input type="button" id="change-color" value="Change Color">
-            <input type="button" value="-"><h4>Tamaño en Pixeles</h4><input type="button" value="+">
+            <div class="change_color">
+            <input type="color" class="input_color" id="input-color" name="" id="">
+            <input type="button"  id="change-color" value="Change Color">
+        </div>
+            <input type="button" class="btnPixel" id="min" value="-">
+            <h4>Tamaño en Pixeles</h4>
+            <input type="button" class="btnPixel" id="max" value="+">
         </div>
     </div>
 
-    <div class="card">
-        <div class="header color-change">
+    <div class="card" id="card">
+        <div class="header color-change"  id="header">
 
         </div>
         <div class="main-card">
@@ -26,7 +30,7 @@
                 <h1>Title</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quidem similique ullam.</p>
             </div>
-            <button class="color-change">Download CV</button>
+            <button class="color-change download">Download CV</button>
         </div>
     </div>
 
